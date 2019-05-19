@@ -1,0 +1,51 @@
+body {
+    height: 100vh;
+    margin: 0px;
+}
+
+#pageName {
+    margin: 0px;
+}
+
+#container {
+    margin: 0px;
+    width: 100%;
+}
+
+#sidebar {
+    text-align: center; 
+    background:#CCCCCC;
+    float: left;
+    width: 15%;
+    min-height: 100vh;
+    border-right: 1px solid black;
+}
+
+#head {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20%;
+    height: 100%;
+    border-bottom: 1px solid black;
+}
+
+#textPole {
+    padding-top: 20px;
+    padding-left: 20%;
+}
+
+.buttonClass {
+    margin-top: 15%;
+    width: 70%;
+    height: 50px;
+}
+
+.divNoButtonClass {
+    margin-top: 15%;
+    height: 31px;
+}
+
+
+#showFavorite {
+    margin-top: 70%;
+}
