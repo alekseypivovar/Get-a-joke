@@ -3,49 +3,53 @@ body {
     margin: 0px;
 }
 
-#pageName {
-    margin: 0px;
+.page-name {
+    margin-top: 0px;
+    padding-left: 250px;
 }
 
-#container {
+.container {
     margin: 0px;
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 
-#sidebar {
+.sidebar {
     text-align: center; 
     background:#CCCCCC;
     float: left;
-    width: 15%;
     min-height: 100vh;
-    border-right: 1px solid black;
+    width: 200px;
+    border-right: 1px solid #669999;
 }
 
-#head {
+.head {
     padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20%;
-    height: 100%;
-    border-bottom: 1px solid black;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #669999;
 }
 
-#textPole {
+.text-pole {
     padding-top: 20px;
-    padding-left: 20%;
+    padding-left: 250px;
 }
 
-.buttonClass {
-    margin-top: 15%;
+.button-сlass{
+    margin-top: 25px;
     width: 70%;
     height: 50px;
+    border: 1px solid #669999;
 }
 
-.divNoButtonClass {
-    margin-top: 15%;
+.div-no-button-class {
+    margin-top: 25px;
     height: 31px;
 }
 
+#nextJoke {
+    margin-top: 86px;
+}
 
 #showFavorite {
-    margin-top: 70%;
+    margin-top: 50vh;
 }

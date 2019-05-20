@@ -97,26 +97,26 @@ class Joke extends React.Component {
 
     render() {
         return (
-            <div id="container">
+            <div class="container">
 
-                <div id="sidebar">
+                <div class="sidebar">
 
-                    <button id="nextJoke" class="buttonClass" onClick={this.updateInfo}>GET A RANDOM JOKE</button> <br></br>
+                    <button id="nextJoke" class="button-сlass" onClick={this.updateInfo}>GET A RANDOM JOKE</button> <br></br>
 
-                    {(this.state.setup.length) ? (<button id="showPunch" class="buttonClass" onClick={this.toggleOn}>SHOW PUNCHLINE</button>) :
-                        <div class="divNoButtonClass"></div>}<br></br>
+                    {(this.state.setup.length) ? (<button id="showPunch" class="button-сlass" onClick={this.toggleOn}>SHOW PUNCHLINE</button>) :
+                        <div class="div-no-button-class"></div>}<br></br>
 
-                    {(this.state.setup.length) ? (<button id="addToFavorite" class="buttonClass" onClick={this.addToFavorite}>ADD TO FAVORITEE</button>) :
-                        <div class="divNoButtonClass"></div>}<br></br>
+                    {(this.state.setup.length) ? (<button id="addToFavorite" class="button-сlass" onClick={this.addToFavorite}>ADD TO FAVORITEE</button>) :
+                        <div class="div-no-button-class"></div>}<br></br>
 
-                    <button id="showFavorite" class="buttonClass" onClick={this.switchIsFavoriteToggleOn}>SHOW/HIDE FAVORITE JOKES</button>
+                    <button id="showFavorite" class="button-сlass" onClick={this.switchIsFavoriteToggleOn}>SHOW/HIDE FAVORITE JOKES</button>
                 </div>
 
-                <div id="head">
-                    <h1 id="pageName">Get a joke!</h1>
+                <div class="head">
+                    <h1 class="page-name">Get a joke!</h1>
                 </div>
 
-                <div id="textPole">
+                <div class="text-pole">
                     {this.state.isFavoriteToggleOn ? this.showFavorite() : this.showJoke()}
                 </div>
 
